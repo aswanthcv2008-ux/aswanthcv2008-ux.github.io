@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aswanth CV Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #fff;
+}
+
+/* HERO */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #6366f1, #00adb5);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* NAV */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0f172a;
+}
+
+/* SECTION */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* TITLE */
+h2 {
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #6366f1;
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* PROJECT GRID */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #334155;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    background: #475569;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ASWANTH CV</h1>
+    <p>BTech Electronics & Communication Engineering Student</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#details">Details</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#goal">Goal</a>
+    </nav>
+</header>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am an Electronics and Communication Engineering student passionate about technology, circuits, and programming. I enjoy building projects that combine hardware and software.</p>
+    </div>
+</section>
+
+<section id="details">
+    <div class="card">
+        <h2>Personal Details</h2>
+        <p><b>Name:</b> ASWANTH CV</p>
+        <p><b>Age:</b> 18</p>
+        <p><b>Course:</b> BTech ECE</p>
+        <p><b>Nationality:</b> Indian</p>
+        <p><b>State:</b> Kerala</p>
+        <p><b>Place:</b> Chavassery</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>C Programming</span>
+            <span>Python</span>
+            <span>Basic Electronics</span>
+            <span>Arduino</span>
+            <span>Circuit Design</span>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+        <div class="project">
+            <h3>Traffic Prediction System</h3>
+            <p>Analyzed traffic data and predicted congestion using basic algorithms.</p>
+        </div>
+
+        <div class="project">
+            <h3>Arduino LED Controller</h3>
+            <p>Built a simple LED control system using Arduino and switches.</p>
+        </div>
+
+        <div class="project">
+            <h3>Image Slider Website</h3>
+            <p>Created a responsive image slider using HTML, CSS, and JavaScript.</p>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <div class="card">
+        <h2>Education</h2>
+        <ul>
+            <li>BTech ECE (2025–Present)</li>
+            <li>Higher Secondary (12th)</li>
+            <li>High School (10th)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="goal">
+    <div class="card">
+        <h2>Career Goal</h2>
+        <p>To become a skilled engineer in electronics and software, and work on innovative real-world projects.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 ASWANTH CV | Portfolio</p>
+</footer>
+
+</body>
+</html>
